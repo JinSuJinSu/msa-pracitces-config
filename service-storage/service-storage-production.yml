@@ -14,11 +14,11 @@ eureka:
       fetchRegistry: true
       registerWithEureka: true
       serviceUrl:
-         defaultZone: http://192.168.0.51:8761/eureka
+         defaultZone: http://34.64.199.56:8761/eureka
 storage:
-   location: /service-storage/assets
+   location: /mysite-uploads/gallery
    httpd:
-      host: 192.168.0.51
+      host: 34.64.199.56
       port: 9999
 logging:
    pattern:

@@ -19,7 +19,7 @@ eureka:
       serviceUrl:
          defaultZone: http://localhost:8761/eureka
 storage:
-   location: E:/service-storage/assets
+   location: C:/mysite-uploads/gallery
    httpd:
       host: localhost
       port: 9999
